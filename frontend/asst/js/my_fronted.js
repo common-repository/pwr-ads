@@ -1,0 +1,1 @@
+function removeSiderImage(e) {    document.getElementById("side_image").remove();}function removeTitleImage(e) {    document.getElementById("title_ad_image").remove();}

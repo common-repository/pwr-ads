@@ -1,0 +1,511 @@
+#theImg 
+{  
+height: auto;  
+width: 100%; 
+align-items: center; 
+margin: auto; 
+display: flex;
+justify-content: center;
+}
+
+div#overlay {
+padding-top: 6px;
+padding-bottom: 6px;
+}
+/* START POPUP CSS  */
+#pwrads_pop-wrapper { 
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(255, 255, 255, .6);
+z-index: 1001;
+}
+#pwrads_popup 
+{ 
+width: 450px;
+height: auto;
+background: #FFFFFF;
+-moz-box-shadow: 0 0px 10px rgb(0 0 0 / 50%);
+-webkit-box-shadow: 0 0px 10px rgb(0 0 0 / 50%);
+position: relative;    top: 15%;    left: 50%;    
+margin-left: -225px;
+box-shadow: 0 0px 10px rgb(0 0 0 / 50%);
+}
+#pwrads_popup .popup-header .ads-text-col
+{
+right: 0 !important;
+}
+#pwrads_popup .popup-header .ads-text-col input.pwrads_close 
+{
+margin-left: 8px;
+}
+input.pwrads_close 
+{
+font-size: 10px !important;
+padding: 2px 3px !important;
+background: rgb(217,230,243) !important;
+float: right;
+}
+#pwrads_pop-wrap 
+{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;    
+background: rgba(000, 000, 000, 0.2);
+z-index: 1001;
+}
+#pwrads_popup2
+{
+width: 100%;
+height: auto;
+background: #FFFFFF;
+-moz-box-shadow: 0 0px 10px rgb(0 0 0 / 50%);
+-webkit-box-shadow: 0 0px 10px rgb(0 0 0 / 50%);
+position: relative;
+top: 15%;    
+left: 50%;
+margin-left: -225px;
+box-shadow: 0 0px 10px rgb(0 0 0 / 50%);
+}
+/*input.pwrads_close 
+{
+padding: 2px 4px;
+font-size: 8px;
+background: gray;
+}
+*/    
+/* END POPUP CSS  */
+/* START FULL SCREEN POP */
+#pwrads_pop-wrap
+{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(255, 255, 255, .6);
+z-index: 1001;
+}
+#pwrads_popupp 
+{
+height: 93%;
+/*background: #FFFFFF;    */
+-moz-box-shadow: 0 0px 10px rgb(0 0 0 / 50%);
+-webkit-box-shadow: 0 0px 10px rgb(0 0 0 / 50%);
+position: relative;    top: 3%;    
+box-shadow: 0 0px 10px rgb(0 0 0 / 50%);
+}
+#pwrads_popupp .popup-header .ads-text-col 
+{
+right: 0 !important;
+}
+#pwrads_popupp .popup-header .ads-text-col input.pwrads_close 
+{
+margin-left: 8px;
+}
+input.pwrads_close 
+{
+font-size: 10px !important;
+padding: 2px 3px !important;
+background: rgb(217,230,243) !important;
+float: right;
+}
+/* END FULL SCREEN POPUP  */
+/* START BOTTOM LEFT SIDE POPUP CSS  */
+#pwrads_pop-left-buttom
+{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;    
+z-index: 1001;
+}
+#pwrads_left-buttom-popup 
+{
+max-width: 351px;
+height: auto;
+background: #FFFFFF;
+position:absolute;
+bottom: 10px;
+left: 0px;
+margin: 0 10px;
+}
+#pwrads_left-buttom-popup .popup-header h2 
+{
+margin: 0 0 10px 0;
+}
+#pwrads_left-buttom-popup .popup-header
+{
+position: relative;
+}
+#pwrads_left-buttom-popup .popup-header input.pwrads_close 
+{
+position: absolute;
+top: -21px;
+right: 0px;
+background: rgb(217,230,243);
+border: 0;
+color: #585858;
+font-size: 10px;
+line-height: 0px;
+padding: 8px 5px!important;
+}
+#pwrads_left-buttom-popup .content-section
+{
+padding: 0px 0px;
+}
+#pwrads_left-buttom-popup .content-section p
+{
+color: #fff;
+}
+/* END BOTTOM LEFT SIDE POPUP CSS  */
+/* START BOTTOM RIGHT SIDE POPUP CSS  */
+#pwrads_pop-right-buttom 
+{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;    
+height: 100%;
+z-index: 1001;
+}
+#pwrads_right-buttom-popup 
+{
+max-width: 351px;
+height: auto;
+background: #FFFFFF;
+position:absolute;
+bottom: 10px;
+right: 0px;
+margin: 0 10px;
+}
+#pwrads_right-buttom-popup .popup-header h2
+{
+margin: 0 0 10px 0;
+}
+#pwrads_right-buttom-popup .popup-header 
+{
+position: relative;
+}
+#pwrads_right-buttom-popup .popup-header input.pwrads_close
+{
+position: absolute;
+top: -21px;
+right: 0px;
+background: rgb(217,230,243);
+border: 0;
+color: #585858;
+font-size: 10px;
+line-height: 0px;
+padding: 8px 5px!important;
+}
+#pwrads_right-buttom-popup .content-section
+{
+padding: 0px 0px;
+} 
+#pwrads_right-buttom-popup .content-section p
+{
+color: #fff;
+}
+/* END BOTTOM RIGHT SIDE POPUP CSS  */ 
+/* START TOP RIGHT SIDE POPUP CSS  */
+#pwrads_pop-right-top
+{
+position: fixed; 
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: 1001;
+}
+#pwrads_right-top-popup
+{
+max-width: 351px; 
+height: auto;
+background: #FFFFFF;
+position:absolute;
+top: 40px;
+right: 0px;
+margin: 0 10px;
+}
+#pwrads_right-top-popup .popup-header h2 
+{
+margin: 0 0 0px 0;
+}
+#pwrads_right-top-popup .popup-header
+{
+position: relative;
+}
+#pwrads_right-top-popup .popup-header input.pwrads_close
+{
+position: absolute;
+top: -21px;
+right: 0px;
+background: rgb(217,230,243);
+border: 0;
+color: #585858;
+font-size: 10px;
+line-height: 0px;
+padding: 8px 5px!important;
+}
+#pwrads_right-top-popup .content-section 
+{
+padding: 0px 0px;
+}
+#pwrads_right-top-popup .content-section p
+{
+color: #fff;
+}
+/* END TOP RIGHT SIDE POPUP CSS  */
+/* START TOP LEFT SIDE POPUP CSS  */
+#pwrads_pop-left-top
+{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;    
+height: 100%;
+z-index: 1001;
+}
+#pwrads_left-top-popup 
+{
+max-width: 351px;
+height: auto;
+background: #FFFFFF;
+position:absolute;
+top: 40px;
+left: 0px;
+margin: 0 10px;
+}
+#pwrads_left-top-popup .popup-header h2
+{
+margin: 0 0 10px 0;
+}
+#pwrads_left-top-popup .popup-header 
+{
+position: relative;
+}
+.popup-header h2
+{
+font-size: 0.8em;
+font-weight: 200;
+padding-left: 10px;
+padding-top: 10px;
+}
+#pwrads_left-top-popup .popup-header input.pwrads_close 
+{
+position: absolute;
+top: -19px;
+right: 0px;
+background: rgb(217,230,243);
+color: #585858;
+border: 0;
+font-size: 10px;
+line-height: 0px;
+padding: 8px 5px!important;
+}
+#pwrads_left-top-popup .content-section 
+{
+padding: 0px 0px;
+}
+#pwrads_left-top-popup .content-section p
+{
+color: #fff;
+}
+#pwrads_left-top-popup .popup-header .ads-text-col span,#pwrads_right-buttom-popup .popup-header .ads-text-col span,#pwrads_left-buttom-popup .popup-header .ads-text-col span,#pwrads_right-top-popup .popup-header .ads-text-col span,#pwrads_popup .popup-header .ads-text-col span,#pwrads_popupp .popup-header .ads-text-col span 
+{
+font-size:12px;
+}
+#pwrads_left-top-popup .popup-header .ads-text-col .img_ad img,#pwrads_right-buttom-popup .popup-header .ads-text-col .img_ad img,#pwrads_left-buttom-popup .popup-header .ads-text-col .img_ad img,#pwrads_right-top-popup .popup-header .ads-text-col .img_ad img,#pwrads_popup .popup-header .ads-text-col .img_ad img,#pwrads_popupp .popup-header .ads-text-col .img_ad img 
+{
+width: 70px;
+}
+#pwrads_left-top-popup .popup-header .ads-text-col .img_ad,#pwrads_right-buttom-popup .popup-header .ads-text-col .img_ad,#pwrads_left-buttom-popup .popup-header .ads-text-col .img_ad,#pwrads_right-top-popup .popup-header .ads-text-col .img_ad,#pwrads_popup .popup-header .ads-text-col .img_ad,#pwrads_popupp .popup-header .ads-text-col .img_ad 
+{
+float: left;
+}
+#pwrads_left-top-popup .popup-header .ads-text-col span,#pwrads_right-buttom-popup .popup-header .ads-text-col span,#pwrads_left-buttom-popup .popup-header .ads-text-col span,#pwrads_right-top-popup .popup-header .ads-text-col span,#pwrads_popup .popup-header .ads-text-col span,#pwrads_popupp .popup-header .ads-text-col span 
+{
+float: left;
+padding-right: 10px;
+line-height: 17px;
+}
+#pwrads_left-top-popup .popup-header .ads-text-col,#pwrads_right-buttom-popup .popup-header .ads-text-col,#pwrads_left-buttom-popup .popup-header .ads-text-col,#pwrads_left-top-popup .popup-header .ads-text-col,#pwrads_popup .popup-header .ads-text-col,#pwrads_popupp .popup-header .ads-text-col 
+{
+position: absolute;
+top: -21px;
+right: 27px;
+}
+/* END TOP LEFT SIDE POPUP CSS  */
+/* AD LOGO */
+span.ad_banner_logo 
+{
+max-width: 728px;
+margin: 0 auto;
+position: relative;
+display: block;
+font-size: 12px;
+}
+span.ad_banner_logo a
+{
+position: absolute; 
+top: -20px;
+right: 5px;
+}
+span.ad_banner_logo .img_ad img
+{
+width: 70px;
+}
+span.ad_banner_logo a.img_ad2 img
+{
+width: 100%;
+}
+/*span.ad_banner_logo:before
+{
+content: '';
+width: 85px;
+height: 31px;
+position: absolute;
+background: rgba(0,0,0,0.8);
+top: -30px;
+right: 0;
+}
+*/
+.pwr_ads_responsive 
+{
+width: 100%;
+display: inline-block;
+/*height: 97px;*/
+/*padding-top: 24px;*/
+}
+span.ad_banner_logo .img_ad img
+{
+width: 70px;
+position: relative;
+z-index: 99;
+margin-top: -22px;
+}
+div#overlay .ad_banner_logo a.img_ad
+{
+top: 20px;
+right: 30px;
+}
+div#overlay .ad_banner_logo a.img_ad2 
+{    
+    top: 0;
+        position: inherit;
+            display: inline-block;
+                margin-top: 5px;
+                }
+                .pwr_ads_responsive .ad_banner_logo .img_ad2 
+                {
+                    position: inherit;
+                        top: 0;
+                            margin-top: 5px;
+                                display: inline-block;
+                                }
+.pwr_ads_responsive .ad_banner_logo .img_ad
+{
+top: 20px;
+right:30px;
+}
+.pwr_ads_responsive
+{
+width: 100%;
+display: block;
+/*padding-top: 10px;
+padding-bottom: 10px;
+*/
+}
+.ad_banner_logo .ads-text 
+{
+display: inline-block;
+float: right;
+padding-right: 110px;
+font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+}
+.ad_banner_logo .ads-text span
+{    
+width: 15px;
+height: 15px;
+display: inline-block;
+text-align: center;
+background: rgb(217,230,243);
+color: #585858;
+font-size: 10px;
+line-height: 15px;
+margin-right: 5px;
+cursor: pointer;
+}
+.ad_banner_logo .ads-text 
+{
+display: inline-block;
+float: right;
+padding-right: 110px;
+}
+.ad_banner_logo .ads-text span
+{
+width: 15px;
+height: 15px;
+display: inline-block;
+text-align: center;
+background: rgb(217,230,243);
+color: #585858;
+font-size: 10px;
+line-height: 15px;
+margin-right: 5px;
+cursor: pointer;
+}
+.ad_banner_logo .ads-text.close-icon 
+{
+position: absolute;
+top: 0;
+right: 0;
+padding-right: 0;
+}
+.pwrads_sidebar_widget .widget-content .pwr_ads_responsive
+{
+width: 160px;
+display: inline-block;
+}
+.pwrads_sidebar_widget .widget-content .pwr_ads_responsive span.ad_banner_logo
+{
+width: 100%;
+padding-bottom: 5px;
+}
+#top-corner
+{   
+position: absolute;   
+top:45px;   
+right: 0;  
+z-index: 9; 
+}
+#top-corner .ad_banner_logo .img_ad img
+{   
+margin-right: 25px;
+}
+#top-corner .ad_banner_logo .ads-text
+{   
+margin-top: -40px;  
+}
+​​​​​​​
+
+
+/* Responsive css start here */
+/*@media screen and (min-width: 320px) and (max-width: 991px){
+    #overlay .ad_banner_logo{
+        max-width: 728px;
+    }
+    #footer_image .ad_banner_logo{
+        max-width: 728px;
+    }
+    #top-corner .ad_banner_logo{
+        max-width: 728px;
+    }
+}*/
+/* Responsive css end here */
